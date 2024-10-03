@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  height: 200px;
+  width: 350px;
+  gap: 15px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+}
+.skip {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.button {
+  height: 30px;
+  width: 30px;
+  font-size: 24px;
+}
